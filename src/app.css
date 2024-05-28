@@ -1,0 +1,46 @@
+body {
+  color: #9c20c9;
+  background-color: aqua;
+}
+
+#title {
+  text-align: center;
+}
+
+.search-form > input,
+button {
+  color: #9c20c9;
+  background-color: aqua;
+  border: 2px solid #9c20c9;
+  margin-right: 10px;
+}
+
+.search-form > input,
+button:hover {
+  cursor: pointer;
+}
+
+#content-div {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 60% 40%;
+}
+
+#world-map-div {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+#world-map-info {
+  background-color: aquamarine;
+  padding: 10px;
+  border: 3px dotted #9c20c9;
+}
+
+#country-list-div {
+  margin-right: 60px;
+  margin-bottom: 40px;
+  padding: 10px;
+  background-color: aquamarine;
+  border: 3px dotted #9c20c9;
+}

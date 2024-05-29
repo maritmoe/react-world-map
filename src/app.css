@@ -11,13 +11,26 @@ body {
 button {
   color: #9c20c9;
   background-color: aqua;
+  padding: 5px;
   border: 2px solid #9c20c9;
+  border-radius: 4px;
   margin-right: 10px;
+  transition-duration: 0.4s;
 }
 
-.search-form > input,
-button:hover {
+.search-form > input:hover {
   cursor: pointer;
+}
+
+.search-form > button:hover {
+  cursor: pointer;
+  border-color: darkseagreen;
+  background-color: #9c20c9;
+  color: aquamarine;
+}
+
+.search-form > button:active {
+  transform: translateY(2px);
 }
 
 #content-div {
@@ -35,6 +48,12 @@ button:hover {
   background-color: aquamarine;
   padding: 10px;
   border: 3px dotted #9c20c9;
+  border-radius: 8px;
+}
+
+.worldmap__figure-container > svg {
+  border: 3px dotted #9c20c9;
+  border-radius: 8px;
 }
 
 #country-list-div {
@@ -43,4 +62,5 @@ button:hover {
   padding: 10px;
   background-color: aquamarine;
   border: 3px dotted #9c20c9;
+  border-radius: 8px;
 }

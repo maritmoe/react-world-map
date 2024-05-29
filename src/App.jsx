@@ -70,8 +70,6 @@ function App() {
           <WorldMap
             color="#9C20C9"
             backgroundColor="aqua"
-            frame={true}
-            frameColor="#9C20C9"
             data={data}
             onClickFunction={handleClick}
           />

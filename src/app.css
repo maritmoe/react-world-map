@@ -35,16 +35,20 @@ button {
 
 #content-div {
   display: grid;
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
   column-gap: 20px;
   grid-template-columns: 60% 40%;
 }
 
 #world-map-div {
-  margin-left: 60px;
   margin-bottom: 20px;
 }
 
 #world-map-info {
+  margin-left: 40px;
+  max-width: 620px;
   background-color: aquamarine;
   padding: 10px;
   border: 3px dotted #9c20c9;
@@ -60,7 +64,13 @@ button {
   margin-right: 60px;
   margin-bottom: 40px;
   padding: 10px;
+  max-width: 300px;
   background-color: aquamarine;
   border: 3px dotted #9c20c9;
   border-radius: 8px;
+}
+
+.country-count {
+  display: inline;
+  font-weight: bold;
 }

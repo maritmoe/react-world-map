@@ -76,12 +76,15 @@ function App() {
         </div>
         <div id="country-list-div">
           <h2>Country List</h2>
+          <p>
+            Total visted countries:{" "}
+            <p className="country-count">{countries.length}</p>
+          </p>
           <ul>
             {countries.map((c) => (
               <li key={c}>{c}</li>
             ))}
           </ul>
-          <p>Total visted countries: {countries.length}</p>
         </div>
       </div>
     </>
